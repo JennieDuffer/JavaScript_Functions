@@ -99,7 +99,6 @@ console.log("EXERCISE 5:\n==========\n");
 function dataUsageFeedback(planLimit, day, usage){
     let periodLength = 30;
     let currentAvg = usage / day;
-    let remainingData = planLimit - usage; 
     let projectedAvg = planLimit / periodLength;
     let remainingDays = periodLength - day;
     let projectedUsage = remainingDays * currentAvg;
